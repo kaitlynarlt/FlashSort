@@ -11,6 +11,7 @@ public class ListNode{
             this(v,null);
         }
         
+        
         public static ListNode insert(int newValue, ListNode current){
             if(current == null || newValue <= current.value){
                 return new ListNode(newValue, current);
